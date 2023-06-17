@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advice Form</title>
+    <link rel="icon" type="image/png" href="adv.jpeg">
+    <style>
+        body {
+            background-color: rgba(140, 127, 255, 0.429);
+            
+        }
+    </style>
+</head>
+<body>
+    <section id="form" >
+        <H2> Suggestions Form</H2>
+        <p>Please fill out this form to suggest me regarding this webpage, it will send a mail to my mail address.</p>
+        <form action="action.php" method="post">
+            <label for="name"> Name: </label><br>
+            <input type="text" id="name" name="name"><br>
+
+            <p>Choose your Gender</p>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="transgender" name="gender" value="Transgender">
+            <label for="trans">Transgender</label><br>
+            <input type="radio" id="none" name="gender" value="Prefer not say">
+            <label for="none">Prefer Not Say</label><br><br><br><br>
+            
+            
+            <label for="email"> Email: </label><br>
+            <input type="text" id="email" name="email"><br><br><br><br><br>
+
+            <label for="phno"> Phone No.: </label><br>
+            <input type="tel" id="phno" name="PhoneNo"><br><br><br><br><br>
+
+            <label for="message"> Please type any advice or suggestions that you might want to give me: </label><br>
+            <textarea id="message" name="message" rows="10" cols="30">
+                </textarea><br><br><br>
+
+            <input type="submit" value="SUBMIT" id="submit">
+        </form>
+    </section>
+</body>
+</html>
